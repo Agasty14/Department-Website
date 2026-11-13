@@ -1,0 +1,118 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/ Navigation Bar /
+nav {
+    background-color: #2563eb;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/ Main Content /
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/ Sections /
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+h2 {
+    color: #2563eb;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 8px;
+}
+
+/ Lists /
+ul {
+    line-height: 2;
+}
+
+/ Footer /
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/ Responsive Design */
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px;
+    }
+}
+nav {
+    background-color: #2563eb;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
